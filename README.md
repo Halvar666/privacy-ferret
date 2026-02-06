@@ -33,6 +33,15 @@ It aims to keep the classic XUL/Goanna ecosystem supported with a maintained, mo
 Privacy Ferret is licensed under **GPLv3+** (same licensing line as the upstream project).  
 See `LICENSE`.
 
+## Project status
+
+Privacy Ferret is currently in **BETA**.
+
+Some legacy components are intentionally retained for stability and
+cross-platform compatibility. Further cleanup will be done incrementally
+to avoid regressions, especially on Windows.
+
+
 ## Disclaimer
 
 This is an **unofficial** community-maintained fork.  
