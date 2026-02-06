@@ -44,6 +44,12 @@ Privacy Ferret is designed as a **native Pale Moon extension**.
 - Tested on Linux and Windows
 - Proper Pale Moon add-on identification
 
+  ---
+
+  Some legacy asset filenames are intentionally preserved to avoid
+regressions during the beta phase.
+
+
 ---
 
 ## Upstream relationship
