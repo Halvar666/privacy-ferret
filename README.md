@@ -1,4 +1,4 @@
-# Privacy Ferret (Pale Moon)
+# Privacy Ferret 
 
 **Privacy Ferret** is an **unofficial, Pale Moon–focused** fork of **Privacy Badger** by the **Electronic Frontier Foundation (EFF)**.
 
