@@ -19,7 +19,6 @@
 
 ### Pale Moon compatibility
 - Extension now identifies as a **native Pale Moon add-on**
-- No Moon Tester Tool required
 - Stable operation on **Linux and Windows**
 - Platform-specific issues resolved
 
@@ -33,17 +32,6 @@
 
 ---
 
-### Technical fixes (BETA series)
-- Fixed exception: `NS_ERROR_FAILURE [nsIURI.host]`
-- Safe handling of non-network URIs:
-  - `about:`
-  - `resource:`
-  - `chrome:`
-  - `file:`
-- Eliminated severe startup and browsing slowdowns
-- Error Console is now **clean on Linux and Windows**
-
----
 
 ### UI & UX
 - New **welcome page shown after installation**
@@ -64,6 +52,6 @@
 
 ### Acknowledgements
 - **Electronic Frontier Foundation (EFF)** — original Privacy Badger
-- **JustOff** — historical Pale Moon fork
+- **JustOff** — historical Privacy Badger fork
 - Pale Moon community — testing and feedback
 
