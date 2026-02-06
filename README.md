@@ -44,10 +44,21 @@ Privacy Ferret is designed as a **native Pale Moon extension**.
 - Tested on Linux and Windows
 - Proper Pale Moon add-on identification
 
-  ---
+---
 
-  Some legacy asset filenames are intentionally preserved to avoid
-regressions during the beta phase.
+## Note on legacy assets
+
+Some legacy graphic assets and icon filenames are still present in the
+codebase, including a few remnants from the original Privacy Badger
+project and some inconsistencies in naming.
+
+Most of these assets are not actively used by Privacy Ferret and have
+no impact on functionality. They are intentionally kept for now to avoid
+unnecessary risk of regressions during the beta phase.
+
+A more thorough cleanup and consolidation of unused or inconsistently
+named assets is planned for a later stage, once the project has received
+broader community testing and feedback.
 
 
 ---
