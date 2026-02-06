@@ -1,48 +1,86 @@
-# Privacy Ferret 
+# Privacy Ferret
 
-**Privacy Ferret** is an **unofficial, Pale Moon–focused** fork of **Privacy Badger** by the **Electronic Frontier Foundation (EFF)**.
+Privacy Ferret is a privacy-focused browser extension for **Pale Moon**.  
+It is a fork of the original **Privacy Badger (XUL)** extension by the
+**Electronic Frontier Foundation (EFF)**, adapted and maintained specifically
+for the Pale Moon platform.
 
-It aims to keep the classic XUL/Goanna ecosystem supported with a maintained, modernized tracker-blocking extension, while staying compatible with current Pale Moon releases.
+Privacy Ferret automatically learns to block invisible trackers based on
+their behavior, without relying on predefined filter lists.
 
-## Features
-
-- Blocks hidden third-party trackers as you browse
-- Optional heuristic “learning” mode (can be toggled in Options)
-- Per-site controls (domain sliders)
-- Tracker counter badge on the toolbar icon
-- Pale Moon–native packaging and UI
-
-## Installation
-
-1. Download the latest `.xpi` from **Releases** on this repository.
-2. In Pale Moon: **Tools → Add-ons** → click the gear icon → **Install Add-on From File…**
-3. Select the downloaded `.xpi`.
-
-## Notes for Pale Moon users
-
-- This project is designed specifically for **Pale Moon** (XUL-based).
-- It is not an official EFF build and does not provide official EFF support links inside the UI.
-
-## Credits and acknowledgements
-
-- **Privacy Badger** © Electronic Frontier Foundation (EFF). Privacy Ferret is a fork and includes EFF’s original work under the same license.
-- Special thanks to **JustOff** for the historical **privacy-badger-me** fork (2016–2017), which helped keep Privacy Badger usable on Pale Moon/XUL browsers during the Firefox XUL transition period.
-
-## License
-
-Privacy Ferret is licensed under **GPLv3+** (same licensing line as the upstream project).  
-See `LICENSE`.
+---
 
 ## Project status
 
-Privacy Ferret is currently in **BETA**.
+**Status:** BETA
+
+Privacy Ferret is currently in active beta testing.
+The extension is functional and stable on **Linux and Windows**, but further
+cleanup and refinements are ongoing.
 
 Some legacy components are intentionally retained for stability and
-cross-platform compatibility. Further cleanup will be done incrementally
-to avoid regressions, especially on Windows.
+cross-platform compatibility. Additional cleanup will be performed
+incrementally to avoid regressions, especially on Windows.
 
+---
+
+## Features
+
+- Automatic detection and blocking of third-party trackers
+- Heuristic learning based on tracking behavior
+- No predefined blocklists
+- Native XUL extension for Pale Moon
+- Clean Error Console (Linux and Windows)
+- Welcome page shown after installation
+- Fully functional toolbar and popup UI
+
+---
+
+## Pale Moon compatibility
+
+Privacy Ferret is designed as a **native Pale Moon extension**.
+
+- Fully compatible with current Pale Moon releases
+- Tested on Linux and Windows
+- Proper Pale Moon add-on identification
+
+---
+
+## Upstream relationship
+
+Privacy Ferret is based on the original **XUL version of Privacy Badger**.
+
+While Privacy Ferret is developed independently for Pale Moon,
+the project follows ongoing development of the **WebExtension version of
+Privacy Badger** maintained by the Electronic Frontier Foundation.
+
+Relevant ideas, heuristics, and security-related improvements from upstream
+may be selectively adapted when technically feasible.
+
+Feature parity with the WebExtension version is **not guaranteed**.
+
+---
+
+## License
+
+Privacy Ferret is licensed under the **GNU General Public License v3 or later
+(GPLv3+)**.
+
+This project is a derivative work based on Privacy Badger by the
+Electronic Frontier Foundation.
+
+---
+
+## Credits
+
+- **Electronic Frontier Foundation (EFF)** — original Privacy Badger
+- **JustOff** — historical Pale Moon–related fork
+- Pale Moon community — testing and feedback
+
+---
 
 ## Disclaimer
 
 This is an **unofficial** community-maintained fork.  
 “Privacy Badger” is a project name associated with the EFF; Privacy Ferret is a separate fork for Pale Moon users.
+Privacy Badger is a trademark of the Electronic Frontier Foundation.
